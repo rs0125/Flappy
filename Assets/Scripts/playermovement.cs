@@ -14,6 +14,7 @@ public class playermovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space)) {
             playerRB.velocity = (Vector2.up * force);
+            Debug.Log("up");
         }
     }
 }
